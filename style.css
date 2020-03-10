@@ -5,9 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* html,body{
-    overflow-x: hidden;
-} */
+
 body{
     font-family: 'Roboto Mono', monospace;
 }
@@ -19,7 +17,7 @@ body{
     width: 100%;
     z-index: -1;
     background: black;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 .full-video{
     position: absolute;
@@ -90,18 +88,11 @@ p{
     display: none;
 }
 .stop-btn{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    overflow: hidden;
-    margin-right: 500px;
     background: white;
     border-radius: 50%;
     border: 0 solid white;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     transform: scale(1);
     transition-duration: 0.6s;
     cursor: pointer;
@@ -111,13 +102,13 @@ p{
 }
 .stop-btn-text{
     font-weight: bolder;
-    color: orangered;
-    font-size: xx-large;
+    color: rgb(255, 0, 0);
+    font-size: x-large;
     opacity: 1;
 }
 
 .stop-btn:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 #for-mobile{
@@ -161,15 +152,14 @@ p{
         font-size: 10px;
     }
     .stop-btn{
-        margin:10px;
-        width: 100px;
-        height: 100px;
+        width: 50px;
+        height: 50px;
     }
     .stop-btn-text{
         text-align: center;
         font-weight: bolder;
         color: orangered;
-        font-size: large;
+        font-size: 0.8em;
         opacity: 1;
     }
     
